@@ -60,6 +60,7 @@ Make sure to connect to right cluster (minikube/GKE). Follow the instructions to
 ```helm install prometheus prometheus-community/kube-prometheus-stack -f prometheus_values.yaml -n monitoring
 helm install prometheus-postgres prometheus-community/prometheus-postgres-exporter -f postgres_values.yaml -n monitoring
 ```
+Note: 'values' files have not been uploaded to this repo due to security reasons. It can be consumed from secret management systems like Hashicorp Vault.
 
 #to be converted into a yaml file 
 
